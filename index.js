@@ -31,7 +31,7 @@ app.use(express.static('public'));
 app.use(morgan('dev'));
 
 app.get('/', (req, res) => {
-	res.sendFile(process.cwd() + '/public/index.html');
+	res.sendFile('/public/index.html');
 });
 
 app.use('/upload', upload);
@@ -39,9 +39,9 @@ app.use(getFile);
 app.use(deleteFile);
 
 app.use((req, res) => {
-	res.status(404).sendFile(process.cwd() + '/public/404.html');
+	res.status(404).sendFile('/public/404.html');
 });
 
 app.listen(process.env.PORT || 3000, () => {
-	console.log('Server listening on port 3000');
+	console.log('Server listening on port:', process.env.PORT);
 });
