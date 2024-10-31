@@ -1,5 +1,5 @@
 import axios from "axios";
 
-const { data } = await axios.delete("http://localhost:3000/:fileID");
+const { data } = await axios.delete("https://cdn.yoshida.my.id/:fileID");
 
 console.log(data);
