@@ -42,6 +42,6 @@ app.use((req, res) => {
 	res.status(404).sendFile(process.cwd() + '/public/404.html');
 });
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 8080, () => {
 	console.log('Server listening on port:', process.env.PORT);
 });
