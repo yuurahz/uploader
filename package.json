@@ -1,12 +1,11 @@
 {
-  "name": "uploader",
+  "name": "fireup",
   "version": "1.0.0",
   "description": "Uploader File Using Firebase Storage",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +17,9 @@
     "uploader"
   ],
   "author": {
-    "name": "YuuraHz",
-    "email": "yuura.dev@gmail.com",
-    "url": "https://github.com/yuurahz"
+    "name": "Dika Ardianta",
+    "email": "mail@dikaardnt.com",
+    "url": "https://github.com/DikaArdnt"
   },
   "license": "MIT",
   "bugs": {
@@ -28,7 +27,6 @@
   },
   "homepage": "https://github.com/yuurahz/uploader#readme",
   "dependencies": {
-    "@types/node": "^18.0.6",
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
