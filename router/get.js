@@ -8,7 +8,7 @@ const cache = new NodeCache({ stdTTL: 0 });
 router.get('/:fileId', async (req, res, next) => {
 	try {
 		const fileId = req.params.fileId;
-		const BASE_URL = `${req.protocol}://${req.hostname === 'localhost' ? 'localhost:' + (process.env.PORT || 3000) : req.hostname}`;
+		const BASE_URL = 'https://cdn.yoshida.my.id'
 
 		if (fileId.includes('.')) return next();
 
