@@ -14,7 +14,7 @@ This project is a web base uploader built with Node.JS, express, firebase storag
 1. Clone the repository
 
 ```sh
-git clone https://github.com/yuurahz/uploader.git
+git clone https://github.com/yuurahz/uploader
 ```
 
 2. go to the folder and install dependencies
