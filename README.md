@@ -2,7 +2,7 @@
 
 This project is a web base uploader built with Node.JS, express, firebase storage and firebase realtime database.
 
-## Fearures
+## Features
 
 -  File upload with size 10MB (set default on [`.env`](/.env.example#L5))
 -  File Storage on Firebase Storage
