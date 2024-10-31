@@ -1,0 +1,2 @@
+# cdn
+Simple cdn
