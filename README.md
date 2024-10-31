@@ -1,2 +1,1 @@
-# cdn
-Simple cdn
+# Uploader
